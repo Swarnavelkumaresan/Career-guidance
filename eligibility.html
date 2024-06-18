@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Career Guidance Portal</title>
+  <!-- Icon -->
+  <link href="img/Icon.png" rel="icon">
+  <!-- bootstrap-->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <!-- fontawesome -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+  <!-- Custom styles-->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+<body class="sub_page">
+    <div class="header_area">
+    <!-- Header -->
+      <header class="header_section">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg custom_nav-container ">
+            <a class="navbar-brand" href="home.html">
+              <span>
+                Career Guidance Portal
+              </span>
+            </a>
+  
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class=""> </span>
+            </button>
+  
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav  ">
+                <li class="nav-item">
+                  <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="eligibility.html">Eligibility Checker<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+    </div>
+    <!-- Header Ends -->
+
+<!-- Style -->
+
+<style>
+*, *:before, *:after {
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #384047;
+}
+
+form {
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+}
+
+h1 {
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+input[type="radio"]{
+  margin: 0 4px 8px 0;
+}
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #18131e;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 50%;
+  border: 1px solid #18131e;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+  /* margin-left: 150px; */
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+.number {
+  background-color: #18131e;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+  border-radius: 100%;
+}
+
+@media screen and (min-width: 480px) {
+
+  form {
+    max-width: 1080px;
+  }
+
+}
+</style>
+<!-- style ends -->
+
+    <!-- Form -->
+    <div style="margin-top: 30px;">
+      <h1 style="text-align: center;"> Eligibility Checker </h1>
+    </div>
+
+    <form action="results.html">
+    <div class="row">
+      <div class="col-md-3">
+          <fieldset>
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject">
+                <option value="">Select Subject</option>
+                <option value="communication_engineering">Communication Engineering</option>
+                <option value="computer_networks">Computer Networks</option>
+                <option value="software_engineering">Software Engineering</option>
+                <option value="operating_systems">Operating Systems</option>
+                <option value="digital_electronics">Digital Electronics</option>
+                <option value="computer_organization_and_architecture">Computer Organization and Architecture</option>
+                <option value="discrete_structures">Discrete Structures</option>
+            </select>
+            <label for="marks">Mark</label>
+            <input type="number" id="number" name="mark" max="100" min="0" placeholder="Your Mark">
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject">
+                <option value="">Select Subject</option>
+                <option value="communication_engineering">Communication Engineering</option>
+                <option value="computer_networks">Computer Networks</option>
+                <option value="software_engineering">Software Engineering</option>
+                <option value="operating_systems">Operating Systems</option>
+                <option value="digital_electronics">Digital Electronics</option>
+                <option value="computer_organization_and_architecture">Computer Organization and Architecture</option>
+                <option value="discrete_structures">Discrete Structures</option>
+            </select>
+            <label for="marks">Mark</label>
+            <input type="number" id="number" name="mark" max="100" min="0" placeholder="Your Mark">
+          </fieldset>
+      </div>
+      <div class="col-md-3">
+          <fieldset>
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject">
+                <option value="">Select Subject</option>
+                <option value="communication_engineering">Communication Engineering</option>
+                <option value="computer_networks">Computer Networks</option>
+                <option value="software_engineering">Software Engineering</option>
+                <option value="operating_systems">Operating Systems</option>
+                <option value="digital_electronics">Digital Electronics</option>
+                <option value="computer_organization_and_architecture">Computer Organization and Architecture</option>
+                <option value="discrete_structures">Discrete Structures</option>
+            </select>
+            <label for="marks">Mark</label>
+            <input type="number" id="number" name="mark" max="100" min="0" placeholder="Your Mark">
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject">
+                <option value="">Select Subject</option>
+                <option value="communication_engineering">Communication Engineering</option>
+                <option value="computer_networks">Computer Networks</option>
+                <option value="software_engineering">Software Engineering</option>
+                <option value="operating_systems">Operating Systems</option>
+                <option value="digital_electronics">Digital Electronics</option>
+                <option value="computer_organization_and_architecture">Computer Organization and Architecture</option>
+                <option value="discrete_structures">Discrete Structures</option>
+            </select>
+            <label for="marks">Mark</label>
+            <input type="number" id="number" name="mark" max="100" min="0" placeholder="Your Mark">
+          </fieldset>
+      </div>
+      <div class="col-md-3">
+          <fieldset>
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject">
+                <option value="">Select Subject</option>
+                <option value="communication_engineering">Communication Engineering</option>
+                <option value="computer_networks">Computer Networks</option>
+                <option value="software_engineering">Software Engineering</option>
+                <option value="operating_systems">Operating Systems</option>
+                <option value="digital_electronics">Digital Electronics</option>
+                <option value="computer_organization_and_architecture">Computer Organization and Architecture</option>
+                <option value="discrete_structures">Discrete Structures</option>
+            </select>
+            <label for="marks">Mark</label>
+            <input type="number" id="number" name="mark" max="100" min="0" placeholder="Your Mark">
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject">
+                <option value="">Select Subject</option>
+                <option value="communication_engineering">Communication Engineering</option>
+                <option value="computer_networks">Computer Networks</option>
+                <option value="software_engineering">Software Engineering</option>
+                <option value="operating_systems">Operating Systems</option>
+                <option value="digital_electronics">Digital Electronics</option>
+                <option value="computer_organization_and_architecture">Computer Organization and Architecture</option>
+                <option value="discrete_structures">Discrete Structures</option>
+            </select>
+            <label for="marks">Mark</label>
+            <input type="number" id="number" name="mark" max="100" min="0" placeholder="Your Mark">
+          </fieldset>
+      </div>
+      <div class="col-md-3">
+        <fieldset>
+          <label for="subject">Subject</label>
+          <select id="subject" name="subject">
+              <option value="">Select Subject</option>
+              <option value="communication_engineering">Communication Engineering</option>
+              <option value="computer_networks">Computer Networks</option>
+              <option value="software_engineering">Software Engineering</option>
+              <option value="operating_systems">Operating Systems</option>
+              <option value="digital_electronics">Digital Electronics</option>
+              <option value="computer_organization_and_architecture">Computer Organization and Architecture</option>
+              <option value="discrete_structures">Discrete Structures</option>
+          </select>
+          <label for="marks">Mark</label>
+          <input type="number" id="number" name="mark" max="100" min="0" placeholder="Your Mark">
+          <label>Certificate Courses</label>
+          <select id="certificates" name="certificates" placeholder="Your Mark">
+              <option value="">Select Certificates</option>
+              <option value="Certified Information Systems Security Professional (CISSP)">Certified Information Systems Security Professional (CISSP)</option>
+              <option value="Certified Ethical Hacker (CEH)">Certified Ethical Hacker (CEH)</option>
+              <option value="Cisco Certified Network Associate (CCNA) Security">Cisco Certified Network Associate (CCNA) Security</option>
+              <option value="CompTIA Security+">Certified Cloud Security Professional (CCSP)</option>
+              <option value="Certified Information Security Manager (CISM)">Certified Information Security Manager (CISM)</option>
+              <option value="Certified Information Systems Auditor (CISA)">Certified Information Systems Auditor (CISA)</option>
+              <option value="AWS Certified Solutions Architect">AWS Certified Solutions Architect</option>
+              <option value="Microsoft Certified: Azure Solutions Architect Expert">Microsoft Certified: Azure Solutions Architect Expert</option>
+              <option value="Google Cloud Professional Cloud Architect">Google Cloud Professional Cloud Architect</option>
+              <option value="Certified Kubernetes Administrator (CKA)">Certified Kubernetes Administrator (CKA)</option>
+              <option value="Certified Jenkins Engineer (CJE)">Certified Jenkins Engineer (CJE)</option>
+              <option value="Puppet Certified Professional">Puppet Certified Professional</option>
+              <option value="Chef Certification">Chef Certification</option>
+              <option value="Docker Certified Associate">Docker Certified Associate</option>
+              <option value="CompTIA A+ Certification">CompTIA A+ Certification</option>
+              <option value="CompTIA Network+ Certification">CompTIA Network+ Certification</option>
+              <option value="CompTIA Server+ Certification">CompTIA Server+ Certification</option>
+              <option value="Cisco Certified Network Associate (CCNA)">Cisco Certified Network Associate (CCNA)</option>
+              <option value="Dell EMC Proven Professional Certification">Dell EMC Proven Professional Certification</option>
+              <option value="Hewlett Packard Enterprise (HPE) Certification">Hewlett Packard Enterprise (HPE) Certification</option>
+              <option value="Apple Certified Mac Technician (ACMT)">Apple Certified Mac Technician (ACMT)</option>
+              <option value="Oracle Certified Professional (OCP)">Oracle Certified Professional (OCP)</option>
+              <option value="Microsoft Certified: Azure Database Administrator Associate">Microsoft Certified: Azure Database Administrator Associate</option>
+              <option value="MongoDB Certified DBA">MongoDB Certified DBA</option>
+              <option value="MySQL Database Administrator Certification">MySQL Database Administrator Certification</option>
+              <option value="IBM Certified Database Administrator">IBM Certified Database Administrator</option>
+              <option value="Amazon Web Services (AWS) Certified Database Specialty">Amazon Web Services (AWS) Certified Database Specialty</option>
+              <option value="Google Cloud Professional Data Engineer">Google Cloud Professional Data Engineer</option>
+          </select>
+          <label>Experience</label>
+          <input type="number" id="number" name="experience" max="10" min="0" placeholder="Your Experience">
+        </fieldset>
+    </div>
+    </div>
+</div>
+<div class="text-center" style=" margin-bottom: 20px;">
+  <label>Internship</label>
+  <input type="radio" name="internship">Yes&nbsp;&nbsp;&nbsp; <input type="radio" name="internship">No 
+</div>
+    <div class="text-center">
+      <button class="">Submit</button>
+    </div>
+  </form>
+    <!-- Form Ends -->
+
+    <div class="footer_container">
+        <!-- info section -->
+    
+        <section class="info_section ">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 col-lg-2 mx-auto">
+                <div class="info_link_box">
+                  <h4>
+                    Links
+                  </h4>
+                  <div class="info_links">
+                    <a class="" href="index.html">
+                      Home
+                    </a>
+                    <a class="" href="eligibility.html">
+                      Eligibility Checker
+                    </a>
+                    <a class="" href="profile.html">
+                      Profile
+                    </a>
+                    <a class="" href="login.html">
+                      Sign In
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3 ">
+                <div class="info_detail">
+                  <h4>
+                    Career Guidance Portal
+                  </h4>
+                  <p>
+                    Make smart decisions with our revolutionary AI enabled career guidance tools and expert career counsellors
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3 mb-0 ml-auto">
+                <div class="info_contact">
+                  <h4>
+                    Address
+                  </h4>
+                  <div class="contact_link_box">
+                    <a href="">
+                      <i class="fa fa-map-marker" aria-hidden="true"></i>
+                      <span>
+                        Pillars Gate, Nagercoil
+                      </span>
+                    </a>
+                    <a href="">
+                      <i class="fa fa-phone" aria-hidden="true"></i>
+                      <span>
+                        Call +91 8870896727
+                      </span>
+                    </a>
+                    <a href="">
+                      <i class="fa fa-envelope" aria-hidden="true"></i>
+                      <span>
+                        swarnavelkumaresan@gmail.com
+                      </span>
+                    </a>
+                  </div>
+                </div>
+                <div class="info_social">
+                  <a class="" href="">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                  </a>
+                  <a href="">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                  </a>
+                  <a href="">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                  </a>
+                  <a href="">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    
+        <!-- end info section -->
+    
+        <!-- footer section -->
+        <footer class="footer_section">
+          <div class="container">
+            <p>
+              &copy; <span id="displayYear"></span> Career Guidance Portal
+              <a href="home.html"></a>
+            </p>
+          </div>
+        </footer>
+        <!-- footer section -->
+      </div>
+    
+      <!-- jQery -->
+      <script src="js/jquery-3.4.1.min.js"></script>
+      <!-- popper js -->
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+      </script>
+      <!-- bootstrap js -->
+      <script src="js/bootstrap.js"></script>
+      <script src="js/custom.js"></script>
+</body>
+</html>
